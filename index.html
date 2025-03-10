@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шахова дошка</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        td {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            font-size: 24px;
+        }
+        /* Чергування кольорів для клітинок */
+        tr:nth-child(odd) td:nth-child(even),
+        tr:nth-child(even) td:nth-child(odd) {
+            background-color: #d3d3d3; /* Світло-сірий колір */
+        }
+        tr:nth-child(odd) td:nth-child(odd),
+        tr:nth-child(even) td:nth-child(even) {
+            background-color: #fff; /* Білий колір */
+        }
+        /* Межі для створення сітки */
+        td {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>♜</td> <!-- Black Rook -->
+            <td>♞</td> <!-- Black Knight -->
+            <td>♝</td> <!-- Black Bishop -->
+            <td>♛</td> <!-- Black Queen -->
+            <td>♚</td> <!-- Black King -->
+            <td>♝</td> <!-- Black Bishop -->
+            <td>♞</td> <!-- Black Knight -->
+            <td>♜</td> <!-- Black Rook -->
+        </tr>
+        <tr>
+            <td>♟</td> <!-- Black Pawn -->
+            <td>♟</td>
+            <td>♟</td>
+            <td>♟</td>
+            <td>♟</td>
+            <td>♟</td>
+            <td>♟</td>
+            <td>♟</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>♙</td> <!-- White Pawn -->
+            <td>♙</td>
+            <td>♙</td>
+            <td>♙</td>
+            <td>♙</td>
+            <td>♙</td>
+            <td>♙</td>
+            <td>♙</td>
+        </tr>
+        <tr>
+            <td>♖</td> <!-- White Rook -->
+            <td>♘</td> <!-- White Knight -->
+            <td>♗</td> <!-- White Bishop -->
+            <td>♕</td> <!-- White Queen -->
+            <td>♔</td> <!-- White King -->
+            <td>♗</td> <!-- White Bishop -->
+            <td>♘</td> <!-- White Knight -->
+            <td>♖</td> <!-- White Rook -->
+        </tr>
+    </table>
+</body>
+</html>
